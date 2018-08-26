@@ -1,5 +1,6 @@
-i=raw_input()
-if(i=='a','e','i','o','u','A','E','I','O','U'):
-	print("Vowel")
+d=['a','e','i','o','u','A','E','I','O','U'];
+s=raw_input()
+if(s in d):
+  print("vowel")
 else:
-	print("Constant")
+  print("consonant")
