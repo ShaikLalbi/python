@@ -1,6 +1,6 @@
-d=['a','e','i','o','u','A','E','I','O','U'];
+d=['a','e','i','o','u','A','E','I','O','U']
 s=raw_input()
 if(s in d):
-  print("vowel")
+	print("Vowel")
 else:
-  print("consonant")
+	print("Consonant")
