@@ -1,6 +1,7 @@
 N,K=raw_input().split( )
 N=list(map(int,raw_input().split()))
 sum=0
-while(N>K):
-	sum=sum+N
+for i in range(0,int(K)):
+	sum=sum+int(K)
+	N.append(sum)
 print(sum)
